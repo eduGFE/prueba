@@ -6,5 +6,5 @@ services:
     ports:
       - "7370:7370"
     environment:
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: blog
+      POSTGRES_PASSWORD: VinkhgAYd1TP5iRCrQtN
+      POSTGRES_DB: railway
