@@ -4,7 +4,7 @@ services:
   db:
     image: postgres:alpine
     ports:
-      - "5432:5432"
+      - "7370:7370"
     environment:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: blog
