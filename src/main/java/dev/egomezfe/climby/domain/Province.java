@@ -17,8 +17,8 @@ public class Province implements Serializable{
 
 	private static final long serialVersionUID = -985853124316450362L;
 
-	private String name_province;
+	private String nameprovince;
 
-	private Integer number_travels;
+	private Integer numbertravels;
 
 }

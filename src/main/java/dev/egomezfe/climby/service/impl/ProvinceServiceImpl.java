@@ -31,7 +31,7 @@ public class ProvinceServiceImpl implements ProvinceService {
 		for (Province province2 : provinces) {
 			for (Province province3 : provincesWithTravelsLater) {
 				if (province2.equals(province3)) {
-					province2.setName_province(province3.getName_province());
+					province2.setNameprovince(province3.getNameprovince());
 				}
 			}
 		}

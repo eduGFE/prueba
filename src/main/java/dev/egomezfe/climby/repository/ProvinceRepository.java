@@ -13,10 +13,10 @@ import java.util.List;
 public interface ProvinceRepository extends CrudRepository<Province, Integer> {
 	
 
-	@Query(value="select tp.name_province, count(tt.province) as number_travels from tb_province tp  left join tb_travel tt on tp.name_province = tt.province where tt.departure_date >= CURRENT_DATE group by tp.name_province order by tp.name_province")
+	@Query(value="select tp.nameprovince, count(tt.province) as numbertravels from tb_province tp  left join tb_travel tt on tp.nameprovince = tt.province where tt.departure_date >= CURRENT_DATE group by tp.nameprovince order by tp.nameprovince")
 	List<Province> getProvincesWithTravelsLater();
 
-	@Query(value="SELECT name_province FROM public.tb_province")
+	@Query(value="SELECT nameprovince FROM public.tb_province")
 	List<Province> findAll();
 
 }
