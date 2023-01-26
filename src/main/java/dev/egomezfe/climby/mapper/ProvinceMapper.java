@@ -16,6 +16,9 @@ public interface ProvinceMapper {
 	
 	ProvinceDTO provinceToprovinceDTO(Province province);
 
+
+	@Mapping(source = "name_province", target = "name_province")
+	@Mapping(source = "number_travels", target = "number_travels")
 	List<ProvinceDTO> listProvinceToListProvinceDTO(List<Province> province);
 		
 
