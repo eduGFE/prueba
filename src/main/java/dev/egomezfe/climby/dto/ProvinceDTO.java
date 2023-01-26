@@ -16,8 +16,8 @@ public class ProvinceDTO implements Serializable {
 
 	private static final long serialVersionUID = -9008106369861307152L;
 
-	private String name;
+	private String name_province;
 
-	private Integer numberTravels;
+	private Integer number_travels;
 
 }

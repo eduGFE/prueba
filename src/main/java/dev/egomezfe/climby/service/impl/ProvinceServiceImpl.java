@@ -21,15 +21,17 @@ public class ProvinceServiceImpl implements ProvinceService {
 	@Autowired
 	private ProvinceMapper provinceMapper;
 
+
+
 	@Override
 	public List<ProvinceDTO> getProvinceFindAll() {
 		List<Province> provincesWithTravelsLater = provinceRepository.getProvincesWithTravelsLater();
-		List<Province> provinces = (List<Province>) provinceRepository.findAll();
+		List<Province> provinces = provinceRepository.findAll();
 
 		for (Province province2 : provinces) {
 			for (Province province3 : provincesWithTravelsLater) {
 				if (province2.equals(province3)) {
-					province2.setNumberTravels(province3.getNumberTravels());
+					province2.setName_province(province3.getName_province());
 				}
 			}
 		}
