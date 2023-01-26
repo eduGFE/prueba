@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:postgresql://containers-us-west-34.railway.app:7370/postgres?currentSchema=public
-    username: postgres
-    password: VinkhgAYd1TP5iRCrQtN
-    name: spring-blog
+    url: jdbc:postgresql://${DEV_DB_HOST}:${DEV_DB_PORT}/${DEV_DB_NAME}?currentSchema=public
+    username: ${DEV_DB_USERNAME}
+    password: ${DEV_DB_PASSWORD}
+    name: climby-api
 
   sql:
     init:

@@ -10,9 +10,9 @@ management:
 
 info:
   application:
-    name: spring-blog
+    name: climby-api
     description: A blog with articles about The Spring Framework.
-    author: Dan Vega
+    author: Edu Gomez
     version: '@project.version@'
 spring:
   profiles:
