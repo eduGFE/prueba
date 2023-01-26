@@ -1,6 +1,6 @@
-package dev.danvega.blog.repository;
+package dev.egomezfe.climby.repository;
 
-import dev.danvega.blog.model.Post;
+import dev.egomezfe.climby.model.Post;
 import org.springframework.data.jdbc.repository.query.Query;
 import org.springframework.data.repository.CrudRepository;
 

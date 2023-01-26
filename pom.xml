@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.danvega</groupId>
-	<artifactId>spring-blog</artifactId>
+	<artifactId>climby-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-blog</name>
 	<description>Sample Blog Project used for hosting demos</description>

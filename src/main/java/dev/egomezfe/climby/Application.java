@@ -1,10 +1,10 @@
-package dev.danvega.blog;
+package dev.egomezfe.climby;
 
-import dev.danvega.blog.model.Author;
-import dev.danvega.blog.model.Comment;
-import dev.danvega.blog.model.Post;
-import dev.danvega.blog.repository.AuthorRepository;
-import dev.danvega.blog.repository.PostRepository;
+import dev.egomezfe.climby.model.Author;
+import dev.egomezfe.climby.model.Comment;
+import dev.egomezfe.climby.model.Post;
+import dev.egomezfe.climby.repository.AuthorRepository;
+import dev.egomezfe.climby.repository.PostRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

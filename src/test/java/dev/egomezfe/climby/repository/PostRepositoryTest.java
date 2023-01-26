@@ -1,8 +1,8 @@
-package dev.danvega.blog.repository;
+package dev.egomezfe.climby.repository;
 
-import dev.danvega.blog.model.Author;
-import dev.danvega.blog.model.Comment;
-import dev.danvega.blog.model.Post;
+import dev.egomezfe.climby.model.Author;
+import dev.egomezfe.climby.model.Comment;
+import dev.egomezfe.climby.model.Post;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

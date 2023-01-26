@@ -1,4 +1,4 @@
-package dev.danvega.blog.model;
+package dev.egomezfe.climby.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.data.annotation.Id;

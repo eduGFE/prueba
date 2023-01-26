@@ -1,9 +1,9 @@
-package dev.danvega.blog.controller;
+package dev.egomezfe.climby.controller;
 
-import dev.danvega.blog.model.Post;
-import dev.danvega.blog.model.dto.PostDetails;
-import dev.danvega.blog.repository.AuthorRepository;
-import dev.danvega.blog.repository.PostRepository;
+import dev.egomezfe.climby.model.Post;
+import dev.egomezfe.climby.model.dto.PostDetails;
+import dev.egomezfe.climby.repository.AuthorRepository;
+import dev.egomezfe.climby.repository.PostRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
